@@ -1,0 +1,8 @@
+﻿  main.cpp
+  Note: including lib: glut32.lib
+  正在生成代码
+  1 of 187 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  OpenGL.vcxproj -> C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目5-局部光照(Phone)\OpenGL\Release\OpenGL.exe

@@ -1,0 +1,8 @@
+﻿  world.cpp
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目6-全局光照\OpenGL\OpenGL\raytracer\world.cpp(100,22): warning C4018:  “<”: 有符号/无符号不匹配
+  正在生成代码
+  0 of 194 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  OpenGL.vcxproj -> C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目6-全局光照\OpenGL\Release\OpenGL.exe

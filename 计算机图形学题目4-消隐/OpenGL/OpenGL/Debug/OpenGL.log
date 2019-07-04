@@ -1,0 +1,34 @@
+﻿  cl: 命令行 warning D9035 :“Gm”选项已否决，并将在将来的版本中移除
+  zbuffer.cpp
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(63,19): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(64,19): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(67,21): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(68,21): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(71,21): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(72,21): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(85,11): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(85,21): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+  transformation.cpp
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\zbuffer.cpp(48,6): warning C4101:  “X”: 未引用的局部变量
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(24,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(25,11): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(26,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(27,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(38,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(39,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(40,11): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(41,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(52,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(53,11): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(54,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(55,14): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(61,9): warning C4244:  “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(61,22): warning C4244:  “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(62,11): warning C4244:  “初始化”: 从“double”转换到“float”，可能丢失数据
+  main.cpp
+  line.cpp
+  common.cpp
+  正在生成代码...
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(101,14): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\OpenGL\transformation.cpp(101,14): warning C4244: Note: including lib: glut32.lib
+  OpenGL.vcxproj -> C:\Users\41061\Desktop\计算机图形学大作业\计算机图形学题目4-消隐\OpenGL\Debug\OpenGL.exe

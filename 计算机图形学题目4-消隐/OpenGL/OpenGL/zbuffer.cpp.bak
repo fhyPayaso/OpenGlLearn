@@ -1,0 +1,52 @@
+#include "common.h"
+#include "math.h"
+#include "zbuffer.h"
+
+//求扫描线Y=y与边AB的交点的x坐标，如果无交点，返回-1
+int linejoin(int A[2],int B[3],int y)
+{
+	float t;
+	if (B[1]==A[1])
+		return -1;
+
+	t = (y-A[1]) / float(B[1]-A[1]);
+	if (t>=0.0 && t<=1.0){
+		return ROUND(A[0] + (B[0]-A[0])*t);
+	}else
+		return -1;
+}
+
+//可能用到的函数
+void SetPixel(int x,int y);
+float GetDepth(int x,int y);
+void SetDepth(int x,int y,float depth);
+
+//多边形填充算法,Zbuffer算法
+//coord 像素坐标 ,coord[0],...coord[n-1]依次相连构成一个多边形区域
+//depth 像素对应的深度
+//n 像素个数
+void linefill(int coord[][2],float depth[],int n)
+{
+	int miny,maxy;
+	int X[10];
+	float A[3],B[3],C[3],D[3],E[3],R[3];
+
+	// 找出y坐标最大和最小的顶点 
+	miny=coord[0][1];maxy=coord[0][1];
+	for (int i=0;i<n;i++){
+		if (coord[i][1]<miny)
+			miny=coord[i][1];
+		if (coord[i][1]>maxy)
+			maxy=coord[i][1];
+	}
+
+	// 使扫描线从y坐标最小的递增1到y最大的顶点 
+	for (int y=miny;y<=maxy;y++)
+	{
+		//添加代码
+		//在判断能否绘制某个像素(x,y)时,要计算该像素的深度值。这里提供一种方法供参考：
+		//从coor,depth中选3个点建立一个平面,再建立一条直线(经过点(x,y,0),方向(0,0,1))
+		//调用函数facejoin(参考common.h),计算平面与直线的交点,交点的z分量即是像素的深度
+	}
+
+}

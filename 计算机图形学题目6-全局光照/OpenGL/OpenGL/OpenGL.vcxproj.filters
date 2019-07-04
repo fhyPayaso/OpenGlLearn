@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="entry">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="maths">
+      <UniqueIdentifier>{10e2bb24-789b-4330-a731-41ed28b26eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raytracer">
+      <UniqueIdentifier>{a04ec619-185f-4ca7-896d-b3c6e0e9dde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raytracer\Geometry">
+      <UniqueIdentifier>{e5f6d290-6266-4a5d-b93d-b9f260ec43a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raytracer\Material">
+      <UniqueIdentifier>{50aaa50d-fd62-4633-a8d8-b3ff8e19093f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\object.cpp">
+      <Filter>raytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\world.cpp">
+      <Filter>raytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Geometry\rayplane.cpp">
+      <Filter>raytracer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Geometry\raysphere.cpp">
+      <Filter>raytracer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Material\material.cpp">
+      <Filter>raytracer\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\ray.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\mathstypes.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\plane.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\vec2.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\vec3.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\colour.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\light.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\object.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\ray.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\world.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Geometry\geometry.h">
+      <Filter>raytracer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Geometry\rayplane.h">
+      <Filter>raytracer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Geometry\raysphere.h">
+      <Filter>raytracer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Material\material.h">
+      <Filter>raytracer\Material</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
